@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home{
+  background-image: url("./images/img4.png");
+  transition: all .2s ease;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner{
+  background-image: url("./images/img3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.servicebanner{
+    background-image: url("./images/img2.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-attachment: fixed;
+}
+
+.card1:hover h3{
+  color: rgb(62, 62, 62);
+}
+
+.overview{
+  background-image: url("./images/data.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
