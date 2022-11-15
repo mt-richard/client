@@ -5,13 +5,13 @@ import Aboutcomp from '../components/aboutcomp';
 const Home = () => {
   return (
     <div>
-      <div className="home w-full p-5 pl-10 ">
+      <div className="home w-full p-5 md:pl-10 ">
         {/* <img src={img3} alt="..." className='w-full fixed'></img> */}
         <div className="content md:w-1/2 pb-24 md:p-10">
           <h6 className="uppercase text-xl pt-5 text-gray-200">
             welcome to protech
           </h6>
-          <h1 className="uppercase text-6xl pt-10 font-bold text-white">
+          <h1 className="uppercase text-4xl md:text-6xl pt-10 font-bold text-white">
             we create website the way you want with protech
           </h1>
           <p className="font-light text-gray-50 leading-9 pt-10">
@@ -19,7 +19,7 @@ const Home = () => {
             Vokalia and Consonamtia, there live the blind texts.
           </p>
 
-          <div className="pt-10">
+          <div className="pt-10 flex">
             <button className="uppercase p-2 bg-[#6c63ff] text-white  pl-5 pr-5  rounded">
               learn more
             </button>
@@ -34,7 +34,7 @@ const Home = () => {
         <div className="services w-full md:flex justify-between md:fixed md:absolute md:mt-[-4rem]">
           <div className="w-1/4 hidden md:block"> hello</div>
           <div className="card-container  w-full p-5 md:flex">
-            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-3 md:w-1/4 ml-4 shadow-2xl">
+            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-3 md:w-1/4 md:ml-4 shadow-2xl">
               <div className="icon">
                 <span className="text-5xl p-4 text-[#6c63ff]">
                   <ion-icon name="desktop-outline"></ion-icon>
@@ -50,7 +50,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="ccard1 bg-gray-50 p-3 pt-6 rounded mb-3 md:w-1/4 ml-4 shadow-2xl">
+            <div className="ccard1 bg-gray-50 p-3 pt-6 rounded mb-3 md:w-1/4 md:ml-4 shadow-2xl">
               <div className="icon">
                 <span className="text-5xl p-4 text-[#6c63ff]">
                   <ion-icon name="code-slash-outline"></ion-icon>
@@ -66,7 +66,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-3 md:w-1/4 ml-4 shadow-2xl">
+            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-3 md:w-1/4 md:ml-4 shadow-2xl">
               <div className="icon">
                 <span className="text-5xl p-4 text-[#6c63ff]">
                   <ion-icon name="logo-react"></ion-icon>
@@ -82,7 +82,7 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-3 md:w-1/4 ml-4 shadow-2xl">
+            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-3 md:w-1/4 md:ml-4 shadow-2xl">
               <div className="icon">
                 <span className="text-5xl p-4 text-[#6c63ff]">
                   <ion-icon name="card-outline"></ion-icon>
