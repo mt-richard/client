@@ -19,11 +19,11 @@ const Home = () => {
             Vokalia and Consonamtia, there live the blind texts.
           </p>
 
-          <div className="pt-10 flex">
-            <button className="uppercase p-2 bg-[#6c63ff] text-white  pl-5 pr-5  rounded">
+          <div className="pt-10 gap-2 flex">
+            <button className="uppercase p-2 bg-[#6c63ff] text-white  md:pl-5 md:pr-5  rounded">
               learn more
             </button>
-            <button className="uppercase ml-5 p-2 bg-gray-50 text-gray-900 pl-5 pr-5  rounded">
+            <button className="uppercase p-2 bg-gray-50 text-gray-900 md:pl-5 md:pr-5  rounded">
               view Portfolio
             </button>
           </div>
