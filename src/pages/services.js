@@ -9,6 +9,12 @@ const Services = () => {
           </h3>
         </div>
         <div className="services w-full p-5 md:pr-40 md:pl-40">
+          <h3 className="text-[#6c63ff] text-center pt-5 pb-5 text-[14px]">
+            OUR SERVICES
+          </h3>
+          <h1 className="text-3xl pb-5 text-center">
+            Customized Solution for Every Business
+          </h1>
           <div className="card-container md:grid grid-cols-3  w-full p-5 md:flex">
             <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-8 ml-4 shadow-2xl">
               <div className="icon">

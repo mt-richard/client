@@ -10,14 +10,14 @@ import solution from "../images/solution.svg";
 const Aboutcomp = () => {
   return (
     <div className="mycontent pb-14 pt-10 bg-white p-5  w-full md:flex md:pr-40 md:pl-40">
-      <div className="photos  md:pl-10 md:pr-10 md:w-1/2">
-        <img src={about1} alt=".." className="  rounded"></img>
+      <div className="photos  md:w-1/2">
+        <img src={about2} alt=".." className="md:w-[30rem] md:ml-24 rounded"></img>
         {/* <img
           src={solution}
           alt=".."
           className="absolute  ml-32 md:ml-60 rounded mt-[-41%] md:mt-[-12%] w-60 md:w-80"
         ></img> */}
-        <div className="absolute bg-blue-400 w-36  pb-8 pt-8 justify-center  mt-[-105%] md:mt-[-41%] mr-20 text-white">
+        <div className="absolute bg-blue-400 w-36  pb-8 pt-8 justify-center  mt-[-90%] md:mt-[-30%] mr-20 text-white">
           <h1 className="text-white text-4xl text-center font-bold">42</h1>
           <h5 className="uppercase text-center font-thin text white">
             years of experienced

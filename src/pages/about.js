@@ -43,7 +43,7 @@ const About = () => {
   };
 
   return (
-    <div className="about bg-white w-full pb-5  ">
+    <div className="about bg-white w-full   ">
       <Aboutbanner />
       <Aboutcomp />
       {/* Out Team */}
@@ -316,6 +316,132 @@ const About = () => {
                     </div>
                   </>
                 ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Testimonials */}
+      <div className="testimony bg-gray-100">
+        <div className="left bg-[#6c63ff] md:h-[35rem] p-5 md:w-1/2 md:pl-40 md:pt-10 md:pb-40">
+          <h3 className="text-white pb-3">TESTIMONIAL</h3>
+          <h1 className="text-white font-bold text-3xl">
+            What Are Clients Says
+          </h1>
+        </div>
+        <div className="right 2/3">
+          <div className="cards md:flex md:gap-3 p-5 md:mt-[-25%] md:ml-40 md:absolute">
+            <div className="card1 rounded shadow-lg p-5 pl-10 mb-5 md:w-80 bg-white">
+              <span className="text-green-500 pb-5">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+              </span>
+              <p className="pt-5 pb-5 leading-8 font-light text-gray-500">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div className="user flex">
+                <div className="w-16 h-16 rounded-full bg-red-200">
+                  <img
+                    src={member}
+                    alt=".."
+                    className="rounded-full h-16 w-30"
+                  ></img>
+                </div>
+                <div className="p-3">
+                  <h4 className="">Lily Adam</h4>
+                  <h4 className="text-[13px] uppercase text-green-500">
+                    marketing manager
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="card1 rounded shadow-lg p-5 pl-10 mb-5 md:w-80 bg-white">
+              <span className="text-green-500 pb-5">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+              </span>
+              <p className="pt-5 pb-5 leading-8 font-light text-gray-500">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div className="user flex">
+                <div className="w-16 h-16 rounded-full bg-red-200">
+                  <img
+                    src={member2}
+                    alt=".."
+                    className="rounded-full h-16 w-30"
+                  ></img>
+                </div>
+                <div className="p-3">
+                  <h4 className="">Lily Adam</h4>
+                  <h4 className="text-[13px] uppercase text-green-500">
+                    marketing manager
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="card1 rounded shadow-lg p-5 pl-10 mb-5 md:w-80 bg-white">
+              <span className="text-green-500 pb-5">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+              </span>
+              <p className="pt-5 pb-5 leading-8 font-light text-gray-500">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div className="user flex">
+                <div className="w-16 h-16 rounded-full bg-red-200">
+                  <img
+                    src={member4}
+                    alt=".."
+                    className="rounded-full h-16 w-30"
+                  ></img>
+                </div>
+                <div className="p-3">
+                  <h4 className="">Lily Adam</h4>
+                  <h4 className="text-[13px] uppercase text-green-500">
+                    marketing manager
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div className="card1 rounded shadow-lg p-5 pl-10 mb-5 md:w-80 bg-white">
+              <span className="text-green-500 pb-5">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-half"></ion-icon>
+              </span>
+              <p className="pt-5 pb-5 leading-8 font-light text-gray-500">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div className="user flex">
+                <div className="w-16 h-16 rounded-full bg-red-200">
+                  <img
+                    src={member5}
+                    alt=".."
+                    className="rounded-full h-16 w-30"
+                  ></img>
+                </div>
+                <div className="p-3">
+                  <h4 className="">Lily Adam</h4>
+                  <h4 className="text-[13px] uppercase text-green-500">
+                    marketing manager
+                  </h4>
+                </div>
               </div>
             </div>
           </div>
