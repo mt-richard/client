@@ -20,7 +20,7 @@ const Nav = () => {
     }
 
     return (
-      <div className="links md:flex md:justify-between w-full bg-[#141b25] text-white p-4">
+      <div className="links md:flex md:justify-between w-full z-10 sticky top-0 bg-[#141b25] text-white p-4">
         <div className="logos p-3 text-3xl font-bold">ProTech.</div>
 
         <div className="links ">

@@ -3,7 +3,7 @@
 const Services = () => {
     return (
       <>
-        <div className="servicebanner h-24 md:h-36 pl-10 p-14 ">
+        <div className="servicebanner h-24 md:h-36 md:pl-10 p-10 md:p-14 ">
           <h3 className="text-center text-gray-900  text-4xl font-bold uppercase ">
             Our Services
           </h3>
@@ -15,8 +15,8 @@ const Services = () => {
           <h1 className="text-3xl pb-5 text-center">
             Customized Solution for Every Business
           </h1>
-          <div className="card-container md:grid grid-cols-3  w-full p-5 md:flex">
-            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-8 ml-4 shadow-2xl">
+          <div className="card-container md:grid md:grid-cols-3  w-full  md:flex">
+            <div className="card1 bg-gray-50  pt-6 rounded mb-8 md:ml-4 shadow-2xl">
               <div className="icon">
                 <span className="text-5xl p-4 text-[#6c63ff]">
                   <ion-icon name="desktop-outline"></ion-icon>
@@ -32,7 +32,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="ccard1 bg-gray-50 p-3 pt-6 rounded mb-8 ml-4 shadow-2xl">
+            <div className="ccard1 bg-gray-50  pt-6 rounded mb-8 md:ml-4 shadow-2xl">
               <div className="icon">
                 <span className="text-5xl p-4 text-[#6c63ff]">
                   <ion-icon name="code-slash-outline"></ion-icon>
@@ -48,7 +48,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-8 ml-4 shadow-2xl">
+            <div className="card1 bg-gray-50  pt-6 rounded mb-8 md:ml-4 shadow-2xl">
               <div className="icon">
                 <span className="text-5xl p-4 text-[#6c63ff]">
                   <ion-icon name="logo-react"></ion-icon>
@@ -64,7 +64,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-8 ml-4 shadow-2xl">
+            <div className="card1 bg-gray-50  pt-6 rounded mb-8 md:ml-4 shadow-2xl">
               <div className="icon">
                 <span className="text-5xl p-4 text-[#6c63ff]">
                   <ion-icon name="card-outline"></ion-icon>
@@ -80,7 +80,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-8 ml-4 shadow-2xl">
+            <div className="card1 bg-gray-50  pt-6 rounded mb-8 md:ml-4 shadow-2xl">
               <div className="icon">
                 <span className="text-5xl p-4 text-[#6c63ff]">
                   <ion-icon name="card-outline"></ion-icon>
@@ -96,7 +96,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="card1 bg-gray-50 p-3 pt-6 rounded mb-8 ml-4 shadow-2xl">
+            <div className="card1 bg-gray-50  pt-6 rounded mb-8 md:ml-4 shadow-2xl">
               <div className="icon">
                 <span className="text-5xl p-4 text-[#6c63ff]">
                   <ion-icon name="card-outline"></ion-icon>

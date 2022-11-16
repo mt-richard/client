@@ -25,7 +25,13 @@
       background-position: bottom;
       background-attachment: fixed;
 }
-
+.contactbanner{
+    background-image: url("./images/about2.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 40% 20%;
+      background-attachment: fixed;
+}
 .card1:hover h3{
   color: rgb(62, 62, 62);
 }
